@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The home page for Square Eyes">
     <title>Square Eyes | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Ramaraja&display=swap" rel="stylesheet">
     <link href="CSS/Styles.css" rel="stylesheet">
+    
+
 </head>
+<style>
+    #pitchleft {
+        width: 45%;
+        float: left;    }
+    #pitchright {
+        width: 45%;
+        float: right;
+        margin: 0 auto;
+    }
+</style>
 <body>
     <header>
         <nav>
@@ -20,17 +35,19 @@
             </ul>
         </nav>
     </header>
+    <main>
     <h1>By passionate creators, for cinema lovers</h1>
-    <div class="consumerpitch">
+    <section id="pitches">
+        <div id="pitchleft">
         <section>
             <p class="bigtext">Are you a lover of high quality independently made movies? Join us now to watch the best new films on a Pay-per-view basis!</p>
             <p>A wide selection of independently, passionately crafted films, in an ever growing library</p>
             <p>Watch the newest short films and titles that will not be shown on mainstream platforms</p>
-            <p>Suppports up-and-coming filmmakers</p>
+            <p>Supports up-and-coming filmmakers</p>
             <p>No subscription needed - You pay only for what you watch!</p>
         </section>
     </div>
-    <div class="creatorpitch">
+    <div id="pitchright">
         <section>
             <p class="bigtext">Are you a filmmaker? Here is why you should stream your creations here on Square Eyes:</p>
             <p>Getting started is easy - Simply register as a creator and upload! We will take care of the rest</p>
@@ -38,6 +55,8 @@
             <p>You maintain all rights to your creations</p>
             <p>Our passionate audience of people who love high-quality independently made movies!</p>
         </section>
+    </section>
     </div>
+    </main>
 </body>
 </html>

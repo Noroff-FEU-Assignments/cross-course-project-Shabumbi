@@ -1,0 +1,35 @@
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Ramaraja", "Abel", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+
+  background-image: url(kinogardin2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background: rgb(140, 140, 140);
+}
+nav a {
+  color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3 {
+  font-family: "Ramaraja", Arial, Helvetica, sans-serif;
+}
+img {
+  width: 100%;
+}
+.bigtext {
+  font-size: 2.5rem;
+}
+#pitches p {
+  column-count: 1;
+  column-rule: 10px solid rgb(83, 83, 83);
+}

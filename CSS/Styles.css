@@ -3,9 +3,14 @@ html {
   min-height: 100%;
   padding: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Ramaraja", "Abel", Verdana, Tahoma, sans-serif;
   font-size: 1.5rem;
+  font-weight: 80;
   color: white;
 
   background-image: url(kinogardin2.jpg);
@@ -15,19 +20,41 @@ body {
 header {
   background: rgb(140, 140, 140);
   background-size: cover;
+  padding: none;
 }
-nav a {
+}
+.nav a {
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
-#navbox {
-  contain: content;
-  position: static;
-}
+
 h1,
 h2,
 h3 {
   font-family: "Ramaraja", Arial, Helvetica, sans-serif;
 }
+h1 {
+  text-align: center;
+}
+.searchbar {
+  position: relative;
+  top: 18%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.search-txt {
+  min-width: 20%;
+  max-width: 80%;
+  min-height: 15%;
+  max-height: 20%;
+  display: flex;
+}
+
 img {
   width: 100%;
 }
@@ -37,19 +64,20 @@ img {
 #pitches {
   column-count: 1;
   column-rule: 5px solid rgb(83, 83, 83);
-}
-.pitches. p {
+  padding: 5%;
+  margin-right: 10%;
 }
 .leftpitch {
   float: left;
   min-width: 40%;
   max-width: 45%;
   margin-left: 10%;
+  max-width: 40%;
 }
 .rightpitch {
   float: right;
   min-width: 40%;
-  max-width: 45%;
+  max-width: 40%;
   margin-right: 10%;
   margin: 0 auto;
 }

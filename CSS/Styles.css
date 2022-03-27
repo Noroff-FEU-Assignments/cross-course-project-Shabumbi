@@ -29,7 +29,20 @@ img {
 .bigtext {
   font-size: 2.5rem;
 }
-#pitches p {
+#pitches {
   column-count: 1;
-  column-rule: 10px solid rgb(83, 83, 83);
+  column-rule: 5px solid rgb(83, 83, 83);
+}
+.leftpitch {
+  float: left;
+  min-width: 40%;
+  max-width: 45%;
+  margin-left: 10%;
+}
+.rightpitch {
+  float: right;
+  min-width: 40%;
+  max-width: 45%;
+  margin-right: 10%;
+  margin: 0 auto;
 }

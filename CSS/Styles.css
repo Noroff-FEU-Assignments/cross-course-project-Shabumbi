@@ -1,10 +1,10 @@
 body,
 html {
   min-height: 100%;
+  padding: none;
 }
-
 body {
-  font-family: "Ramaraja", "Abel", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Ramaraja", "Abel", Verdana, Tahoma, sans-serif;
   font-size: 1.5rem;
   color: white;
 
@@ -14,9 +14,14 @@ body {
 }
 header {
   background: rgb(140, 140, 140);
+  background-size: cover;
 }
 nav a {
   color: rgb(0, 0, 0);
+}
+#navbox {
+  contain: content;
+  position: static;
 }
 h1,
 h2,
@@ -32,6 +37,8 @@ img {
 #pitches {
   column-count: 1;
   column-rule: 5px solid rgb(83, 83, 83);
+}
+.pitches. p {
 }
 .leftpitch {
   float: left;
